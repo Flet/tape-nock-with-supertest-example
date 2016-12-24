@@ -1,0 +1,31 @@
+[
+    {
+        "scope": "http://httpbin.org:80",
+        "method": "GET",
+        "path": "/get",
+        "body": "",
+        "status": 200,
+        "response": {
+            "args": {},
+            "headers": {
+                "Accept-Encoding": "gzip, deflate",
+                "Cache-Control": "max-stale=0",
+                "Host": "httpbin.org",
+                "If-Modified-Since": "Fri, 23 Dec 2016 23:31:11 GMT",
+                "User-Agent": "node-superagent/3.3.1"
+            },
+            "origin": "1.1.1.1",
+            "url": "http://httpbin.org/get"
+        },
+        "headers": {
+            "server": "nginx",
+            "date": "Sat, 24 Dec 2016 01:03:16 GMT",
+            "content-type": "application/json",
+            "content-length": "354",
+            "access-control-allow-origin": "*",
+            "access-control-allow-credentials": "true",
+            "connection": "close",
+            "age": "0"
+        }
+    }
+]
