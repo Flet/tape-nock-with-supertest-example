@@ -7,7 +7,7 @@ const test = require('./setup-tape-nock');
 
 // note that we're passing in test.options here
 // which has our special "afterRecord" and "before" functions
-test('hit version url', test.options, function (t) {
+test('hit version url', function (t) {
   request(app)
     .get('/hammer/version')
     .expect(200, {

@@ -17,6 +17,6 @@
   "devDependencies": {
     "rimraf": "^2.5.4",
     "tape": "^4.6.3",
-    "tape-nock": "^1.4.0"
+    "tape-nock": "^1.6.0"
   }
 }
